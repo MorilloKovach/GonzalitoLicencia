@@ -1,0 +1,43 @@
+#menu-toggle {
+    position: relative;
+    div {
+        height: 5px;
+        width: 30px;
+        background-color: #ffffff;
+        transition: 0.5s;
+        border-radius: 2px;
+        margin: 3px 0;
+    }
+    .clicked {
+        position: absolute;
+        transform: rotate(-45deg);
+    }
+    .clickedd {
+        transform: rotate(45deg);
+    }
+    .search{
+        opacity: 0;
+    }
+}
+
+@media(max-width:768px){
+    .nav-gen{
+        display: flex;
+        flex-direction: column;
+        position:absolute;
+        z-index: 999;
+        left:0;
+        top:0;
+        background-color: var(--color-gray-800);
+        height: 100%;
+        padding: 20px;
+        transition: 0.5s;
+        transform: translateX(-150px);
+        a{
+            margin:5px 0;
+        }
+    }
+    .nav-open{
+        transform: translateX(0px);
+    }
+}

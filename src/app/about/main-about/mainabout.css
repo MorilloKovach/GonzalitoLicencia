@@ -1,0 +1,39 @@
+.mainAbout {
+
+    div div {
+        margin: 5px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        img {
+            max-width: 1000px;
+            width: 100%;
+            height: auto;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+    }
+
+    div {
+        max-width: 1000px;
+        width: 90%;
+        margin: 0 auto;
+
+        @media(max-width:1000px) {
+            flex-direction: column;
+
+            div {
+                margin: 10px auto;
+
+                img {
+
+                    max-width: 500px;
+                }
+            }
+        }
+    }
+
+}

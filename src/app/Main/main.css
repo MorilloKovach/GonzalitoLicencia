@@ -1,0 +1,33 @@
+.resumen .divisor-flex{
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    .divisor-text{
+        h2{
+            font-size:1.5rem;
+        }
+        width: 95%;
+        margin: 0 auto;
+        padding: 20px 0;
+        color: var(--color-gray-800);
+        ul{
+            li{
+                list-style-type:disc;
+            }
+        }
+    }
+    @media(max-width:768px){
+        flex-direction: column;
+        div{
+            margin: 0 auto;
+        }
+    }
+    .img-div2{
+        max-width: 226px;
+        width: 100%;
+    }
+}
+.resumen{
+    padding: 10px 0;
+}
