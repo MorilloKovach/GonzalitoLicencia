@@ -91,7 +91,7 @@ export const Main = () => {
                     <SwiperSlide>
                         <div className="bg-white shadow-lg rounded-lg p-6 max-w-md mx-auto">
                             <img src="/scattu.jpg" alt="persona" className="rounded-full text-center w-10 h-10" />
-                            <h2>⭐⭐⭐⭐</h2>
+                            <h2>⭐⭐⭐⭐⭐</h2>
                             <h2 className="text-2xl font-bold mb-4">Scatturovsky Emmanuel</h2>
                             <p className="text-gray-700 mb-4">Pude rescatar archivos sovieticos muy importantes. La aplicación me permitió restaurar la Unión Soviética.</p>
                         </div></SwiperSlide>
@@ -101,6 +101,13 @@ export const Main = () => {
                             <h2>⭐⭐⭐⭐⭐</h2>
                             <h2 className="text-2xl font-bold mb-4">Luca Monteblack</h2>
                             <p className="text-gray-700 mb-4">me gustó mucho la aplicación gracias por todo, no pagaré una mierda</p>
+                        </div></SwiperSlide>
+                    <SwiperSlide>
+                        <div className="bg-white shadow-lg rounded-lg p-6 max-w-md mx-auto">
+                            <img src="/ema.png" alt="persona" className="rounded-full text-center w-10" />
+                            <h2>⭐</h2>
+                            <h2 className="text-2xl font-bold mb-4">Fuentes Claudio</h2>
+                            <p className="text-gray-700 mb-4">NO SOY FUENTES CLAUDIO</p>
                         </div></SwiperSlide>
                     <SwiperSlide>
                         <div className="bg-white shadow-lg rounded-lg p-6 max-w-md mx-auto">
